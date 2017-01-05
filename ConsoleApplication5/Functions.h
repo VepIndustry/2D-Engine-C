@@ -57,7 +57,7 @@ private:
 	int last_shoot_2 = 0;
 	int last_shoot_3 = 0;
 	int count_bull = 0;
-	int life = 3000;
+	int life = 3;
 	int pl_index_1 = elements::getInstance().getByName("planet_1")->index_elem,
 		pl_index_2 = elements::getInstance().getByName("planet_2")->index_elem,
 		pl_index_3 = elements::getInstance().getByName("planet_3")->index_elem;

@@ -496,9 +496,9 @@ void functions::mutant_tank(element * caller, element * second)
 		caller->number_sprite = 0;
 		caller->condition = 2;
 		
-		elems.getByName("tank_1")->condition = 1;
-		elems.getByName("tank_2")->condition = 1;
-		elems.getByName("tank_3")->condition = 1;
+		elems.getByName("tank_1")->condition = 3;
+		elems.getByName("tank_2")->condition = 3;
+		elems.getByName("tank_3")->condition = 3;
 
 		for (int i = 0; i < 28; i++) {
 			if (elems.getPoint(i)->NameID != "mario"
