@@ -224,12 +224,3 @@ void elements::foreach(void (*fun)(element &x))
 		fun(x);
 	}
 }
-/*
-void elements::foreach(element & h, void(*fun)(element &x, element &y))
-{
-	for (element & x : Array)
-	{
-		fun(h, x);
-	}
-}
-*/

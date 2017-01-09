@@ -133,7 +133,7 @@ void element::setAngle(double newAngle)
 	angle = newAngle;
 }
 
-const double element::getAngle()
+const double element::getAngle() const
 {
 	return angle;
 }

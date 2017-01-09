@@ -9,6 +9,7 @@ class s_sprite : public picture
 {
 	std::vector<sf::Texture> textures = std::vector<sf::Texture>();
 	sf::Image image;
+
 public:
 	void addNewSprite(pair first, pair second);
 

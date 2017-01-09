@@ -21,6 +21,7 @@ class elements
 public:
 	
 	std::vector<element> Array = std::vector<element>();
+
 	static elements& getInstance() {
 		static elements instance;
 		return instance;
@@ -62,5 +63,5 @@ public:
 		last = &Array[size - 1];
 	}
 
-inline 	int get_size() { return size; }
+	inline 	int get_size() const { return size; }
 };

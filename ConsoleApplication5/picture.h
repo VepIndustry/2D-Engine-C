@@ -6,7 +6,7 @@
 class picture
 {
 public:
-	std::string name;
+	const std::string name;
 
 	picture(std::string name) : name(name) {}
 

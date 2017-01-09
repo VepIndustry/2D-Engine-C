@@ -12,6 +12,7 @@ class sprites
 	sprites& operator=(sprites&);
 
 	std::vector<picture *> images = std::vector<picture *>();
+
 public:
 	static sprites& getInstance() {
 		static sprites instance;
@@ -21,4 +22,10 @@ public:
 	sf::Sprite getSprite(s_element & current);
 
 	void init();
+
+	~sprites() {
+		for (picture * x : images) {
+			delete x;
+		}
+	}
 };

@@ -21,23 +21,23 @@
     <Filter Include="Заголовочные файлы\Game\Controller">
       <UniqueIdentifier>{c7dd39f4-f317-43e4-af80-b786db5016a5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы исходного кода\Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Файлы исходного кода\Файлы ресурсов\Game">
-      <UniqueIdentifier>{a51fd523-e71f-4eb0-a8c5-01d218cb77cd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Заголовочные файлы\Game\View">
       <UniqueIdentifier>{f731533d-0b00-4774-b2d2-a90d2a275826}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы исходного кода\Файлы ресурсов\Game\Model">
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game">
+      <UniqueIdentifier>{a51fd523-e71f-4eb0-a8c5-01d218cb77cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game\Model">
       <UniqueIdentifier>{63ea744c-1d0f-4cdf-859d-af203dd9050d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы исходного кода\Файлы ресурсов\Game\Controller">
+    <Filter Include="Файлы исходного кода\Game\Controller">
       <UniqueIdentifier>{e1fb6847-c84b-4a4a-890e-bbe92c1abd67}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы исходного кода\Файлы ресурсов\Game\View">
+    <Filter Include="Файлы исходного кода\Game\View">
       <UniqueIdentifier>{24747d80-0b3f-40e5-ac42-f127fbf40951}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -146,59 +146,59 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов</Filter>
-    </ClCompile>
     <ClCompile Include="pair.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Element.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Collisioner.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Elements.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Controller.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Controller</Filter>
+      <Filter>Файлы исходного кода\Game\Controller</Filter>
     </ClCompile>
     <ClCompile Include="FunctionHelper.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="View.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\View</Filter>
+      <Filter>Файлы исходного кода\Game\View</Filter>
     </ClCompile>
     <ClCompile Include="Model.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game</Filter>
+      <Filter>Файлы исходного кода\Game</Filter>
     </ClCompile>
     <ClCompile Include="God.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="HelperGod.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="PhysicalHelper.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Sprites.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\View</Filter>
+      <Filter>Файлы исходного кода\Game\View</Filter>
     </ClCompile>
     <ClCompile Include="Map.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="Functions.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов</Filter>
+      <Filter>Файлы исходного кода\Game\Model</Filter>
     </ClCompile>
     <ClCompile Include="Sprite.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\View</Filter>
+      <Filter>Файлы исходного кода\Game\View</Filter>
     </ClCompile>
     <ClCompile Include="Animation.cpp">
-      <Filter>Файлы исходного кода\Файлы ресурсов\Game\View</Filter>
+      <Filter>Файлы исходного кода\Game\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

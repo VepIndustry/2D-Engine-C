@@ -28,7 +28,8 @@ private:
 	inline void load(std::string);
 
 	std::vector<s_sprite> arr_sprite = std::vector<s_sprite>();
-	std::vector<s_element> elems = std::vector<s_element>();	
+	std::vector<s_element> elems = std::vector<s_element>();
+
 	sprites & Sprits = sprites::getInstance();
 public:
 	static view * getInstance() {

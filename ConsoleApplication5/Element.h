@@ -62,7 +62,7 @@ public:
 
 	void setAngle(double newAngle);
 
-	const double getAngle();
+	const double getAngle() const;
 
 	std::vector<pair> cells = std::vector<pair>();
 
