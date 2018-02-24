@@ -52,6 +52,7 @@ artifacts/
 *.obj
 *.pch
 *.pdb
+*.vcxproj
 *.pgc
 *.pgd
 *.rsp
@@ -68,6 +69,8 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
+*.filters
+*.TTF
 
 # Chutzpah Test files
 _Chutzpah*
